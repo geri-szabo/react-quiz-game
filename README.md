@@ -3,7 +3,7 @@
 ### I recommend reading the rules before you first play. After you've read the rules, click 'New game', and prepare for your first question!
 #### NOTE: Coins DO transfer between playthroughs, but they DO NOT transfer between devices or browsers!
 <h1>GAMEPLAY</h1>
-<h3>Go to <a href="https://react-quiz-game-siege.vercel.app/" target="_blank">https://react-quiz-game-siege.vercel.app/</a></h3>
+<h3>Go to (Ctrl + Click) <a href="https://react-quiz-game-siege.vercel.app/">https://react-quiz-game-siege.vercel.app/</a></h3>
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/7f4c4515-0e50-456f-b04f-d5b800b185fc" />
 <h3>Each question has 4 answers. You need to click on a colored box to choose an answer.</h3>
 <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/bbdd9582-a79d-4069-95d8-9295e9cdc3cd" />
