@@ -22,3 +22,5 @@
   <li>React</li>
   <li>Tailwind CSS</li>
 </ul>
+<h4>NOTE: I've just started learning React and Tailwind CSS, this is the reason everything looks so simple.</h4>
+
