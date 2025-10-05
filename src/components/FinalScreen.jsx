@@ -30,7 +30,7 @@ const FinalScreen = ({ answers, stop }) => {
                     <h1 className="text-yellow-200 animate-fade-in-delayed">Coins: {parseInt(coins) + (answers * 50)}</h1>
                     <div className="grid">
                         <button onClick={() => navigate("/")}
-                        className="h-full w-full bg-yellow-500 text-gray-200 text-lg font-medium rounded-2xl
+                        className="h-full w-full bg-yellow-500 text-gray-200 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium rounded-2xl
                         animate-fade-in-delayed">Back to menu</button>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const FinalScreen = ({ answers, stop }) => {
                         <h1 className="text-yellow-200 animate-fade-in-delayed">Coins you saved: {coins}</h1>
                         <div className="grid">
                             <button onClick={() => navigate("/")}
-                            className="h-full w-full bg-yellow-500 text-gray-200 text-lg font-medium rounded-2xl
+                            className="h-full w-full bg-yellow-500 text-gray-200 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium rounded-2xl
                             animate-fade-in-delayed">Back to menu</button>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const FinalScreen = ({ answers, stop }) => {
                         <h1 className="text-yellow-200 animate-fade-in-delayed">Coins you lost: {coins}</h1>
                         <div className="grid">
                             <button onClick={() => navigate("/")}
-                            className="h-full w-full bg-yellow-500 text-gray-200 text-lg font-medium rounded-2xl
+                            className="h-full w-full bg-yellow-500 text-gray-200 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium rounded-2xl
                             animate-fade-in-delayed">Back to menu</button>
                         </div>
                     </div>
