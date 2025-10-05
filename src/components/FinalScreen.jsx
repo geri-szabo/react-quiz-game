@@ -39,7 +39,7 @@ const FinalScreen = ({ answers, stop }) => {
                     grid text-center rounded-4xl border-2 border-orange-500 animate-fade-in">
                         <h1 className="text-orange-200 font-medium animate-fade-in-delayed">You stopped after question {answers}!</h1>
                         <h1 className="text-orange-300 animate-fade-in-delayed">I know you would have been able to answer the next question too...</h1>
-                        <h1 className="text-yellow-200 animate-fade-in-delayed">Coins you saved: {coins}</h1>
+                        <h1 className="text-yellow-200 animate-fade-in-delayed">Coins saved: {coins}</h1>
                         <div className="grid">
                             <button onClick={() => navigate("/")}
                             className="h-full w-full bg-yellow-500 text-gray-200 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium rounded-2xl
@@ -51,7 +51,7 @@ const FinalScreen = ({ answers, stop }) => {
                     grid text-center rounded-4xl border-2 border-red-500 animate-fade-in">
                         <h1 className="text-red-200 font-medium animate-fade-in-delayed">Wrong answer! You lost all your coins!</h1>
                         <h1 className="text-green-200 animate-fade-in-delayed">Questions answered right: {answers}</h1>
-                        <h1 className="text-yellow-200 animate-fade-in-delayed">Coins you lost: {coins}</h1>
+                        <h1 className="text-yellow-200 animate-fade-in-delayed">Coins lost: {coins}</h1>
                         <div className="grid">
                             <button onClick={() => navigate("/")}
                             className="h-full w-full bg-yellow-500 text-gray-200 text-lg md:text-2xl lg:text-3xl xl:text-4xl font-medium rounded-2xl
