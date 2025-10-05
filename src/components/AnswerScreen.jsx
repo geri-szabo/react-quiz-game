@@ -4,7 +4,7 @@ const AnswerScreen = ({ onNext, onStop, coins, answerCount }) => {
     return (
         <div className='bg-gray-800 h-screen w-screen select-none'>
             <div className={`border-green-500 border-4 bg-gray-600 p-4 
-            rounded-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1/2 w-1/2 grid ${answerCount > 1 ? "grid-rows-4" : "grid-rows-3"} text-2xl
+            rounded-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1/2 w-3/4 grid ${answerCount > 1 ? "grid-rows-4" : "grid-rows-3"} text-2xl
             text-gray-200 font-medium text-center gap-2 animate-fade-in`}>
                 <h1 className='animate-fade-in-delayed'>Correct answer!</h1>
                 <div className='animate-fade-in-delayed grid'>
