@@ -69,12 +69,12 @@ const Quiz = () => {
                 <div className="h-full w-[75vw]"></div>
                 <div className="h-full w-[75vw] flex justify-center items-center rounded-4xl bg-yellow-600
                 border-2 border-yellow-400 animate-fade-in">
-                    <h3 className="text-2xl">Coins: {coins}</h3>
+                    <h3 className="text-2xl lg:text-3xl xl:text-4xl">Coins: {coins}</h3>
                 </div>
                 <div className="h-full min-h-fit w-[75vw] bg-gray-600 flex flex-col justify-around p-4 text-lg font-medium
                 text-center rounded-4xl border-2 border-gray-400 animate-fade-in">
-                    <h1 className='text-2xl'>Question {rightAnswers + 1}:</h1>
-                    <h1>{currentQuestion.question}</h1>
+                    <h1 className='text-2xl lg:text-3xl xl:text-4xl'>Question {rightAnswers + 1}:</h1>
+                    <h1 className='text-xl lg:text-2xl xl:text-3xl'>{currentQuestion.question}</h1>
                 </div>
                 <div className="h-full w-[75vw] min-h-fit grid grid-cols-2 grid-rows-2 rounded-2xl gap-1 md:gap-2 lg:gap-3">
                     <Option text={currentQuestion.a} background="bg-red-600" border="border-red-400" value="a" onClick={() => goToNextQuestion("a")} />
@@ -92,7 +92,8 @@ const Option = ({ text, background, border, value, onClick }) => {
     return (
         <div onClick={onClick}
         className={`grid place-items-center min-h-fit text-gray-900 font-medium ${background}
-        rounded-[inherit] hover:cursor-pointer hover:brightness-80 border-2 ${border} animate-fade-in-${value}`}>
+        rounded-[inherit] hover:cursor-pointer hover:brightness-80 border-2 ${border} animate-fade-in-${value}
+        lg:text-2xl xl:text-3xl`}>
             <h1>{value}: {text}</h1>
         </div>
     )
