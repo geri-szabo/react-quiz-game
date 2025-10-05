@@ -8,6 +8,26 @@
     animation: fade-in-delayed 1.8s ease-in-out;
 }
 
+.animate-fade-in-right-delayed {
+    animation: fade-in-right-delayed 3s ease-in-out;
+}
+
+.animate-fade-in-a {
+    animation: fade-in-delayed 1s ease-in-out;
+}
+
+.animate-fade-in-b {
+    animation: fade-in-delayed 2s ease-in-out;
+}
+
+.animate-fade-in-c {
+    animation: fade-in-delayed 3s ease-in-out;
+}
+
+.animate-fade-in-d {
+    animation: fade-in-delayed 4s ease-in-out;
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -32,4 +52,23 @@
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+@keyframes fade-in-right-delayed {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    55% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+button {
+    @apply hover:cursor-pointer hover:brightness-95
 }
